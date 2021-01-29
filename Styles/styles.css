@@ -12,18 +12,24 @@ a:link ,a:visited, a:active{
 
 }
 
-.principal_nav{
+.principal_header{
+	background-color: red;
 
 }
+.principal_nav{
+padding: 10px;
+}
 
-.principal_nav ul{
+.principal-nav_ul{
+	
 	float: right;
 	display: flex;
-	
+	margin-top: 15px;
 }
 
-.principal_nav ul li{
+.principal-nav_ul li{
 	margin: 20px;
+
 }
 
 .principal-header_btn{
@@ -36,14 +42,13 @@ a:link ,a:visited, a:active{
 
 }
 
-.principal-header img{
-	display: inline;
+.principal-header_logo{
+	margin: 10px;
+	width: 100px;
+	height: 100px;
 }
 
-.principal-header_logo{
-	display: inline;
-	padding: 50px;
-	margin: 100px 100px;
-	background-image: url(../images/perro.jfif);
-}
+
+
+
 

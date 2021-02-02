@@ -2,33 +2,56 @@
 	margin: 0;
 	padding: 0;
 }
-
+html{
+	background-color: aliceblue;
+}
 ul{
 	list-style: none;
 }
 
-a:link ,a:visited, a:active{
+a:link ,a:visited, a:active,a:hover{
 	text-decoration: none;
 
 }
 
-.principal_header{
-	background-color: red;
+.contenedor{
+	margin:0 50px;
+	background-color: aliceblue;
+	
 
 }
+
+.principal_header{
+box-sizing: border-box;
+margin-top: 15px;
+}
 .principal_nav{
+background-color: #007bff;
+
 padding: 10px;
 }
 
 .principal-nav_ul{
 	
 	float: right;
+
 	display: flex;
-	margin-top: 15px;
+	margin-top: 17px;
+	box-sizing: border-box;
 }
+
+
 
 .principal-nav_ul li{
 	margin: 20px;
+
+
+}
+
+.principal-nav_ul li:hover, 
+.principal-nav_ul li:active{
+	background-color: lightblue;
+		
 
 }
 
@@ -42,10 +65,52 @@ padding: 10px;
 
 }
 
+.principal-header_btn:active {
+	background-color: lightgreen;
+	border-radius: 1px;
+	width: auto;
+	padding: 10px;
+	color:#212B36;
+
+
+}
+
 .principal-header_logo{
-	margin: 10px;
-	width: 100px;
+	margin: 0;
+	width: 	100px;
 	height: 100px;
+}
+/*FIN DEL HEADER*/
+/*JUMBOTRON*/
+
+.jumbotron{
+	background: lightgray;
+	margin-top: 100px;
+	
+
+}
+
+.jumbotron_main-titulo{
+	margin-top: 10%;
+	margin-left: 10%;
+	font-size: 40px;
+	font-family: "Raleway",sans-serif;
+	font-color: #2F445D;
+}
+
+.jumbotron_main-a{
+	display: inline-block;
+	margin-top: 10px;
+	padding: 20px;
+	border-radius: 20px;
+	background-color:#0E60C5;
+	color:white; 
+	font-size: 20px; 
+}
+
+.columna-50{
+	width: 50%;
+	height: 50%;
 }
 
 
